@@ -5,11 +5,30 @@ const fs = require("fs")
 // TODO: Create an array of questions for user input
 const questions = [
     {
-    name: "title", 
+    name: "title",
     type: "input",
-    message: "What is the title of your project?"
-    }
-    
+    message: "What is the title of your project?",
+    },
+    {
+    name: "description",
+    type: "input",
+    message: "Please enter the description of your project: "
+   }, 
+   {
+    name: "liveDemo",
+    type: "input",
+    message: "Please paste the url to your live demo: "
+   },
+   {
+    name: "screenshot",
+    type: "input",
+    message: "Please paste the link to your screenshot: "
+   },
+   {
+    name: "video",
+    type: "input",
+    message: "Please paste the link to your video (if applicable): "
+   },
 ];
 
 // TODO: Create a function to write README file
